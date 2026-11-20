@@ -1,0 +1,270 @@
+PRIMEIRRA PARTE
+
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Vanessa do Carmo - Limpeza Profissional</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+=================================================================================SEGUNDA PARTE =====================DIAS DE 1 A 2 DO PROJETO================================================
+
+<!-- ===== TELA 1: INÍCIO ===== -->
+
+<section class="screen active" id="tela-inicio">
+
+&#x20; <div class="home-card">
+
+&#x20;   <div class="home-left">
+
+&#x20;     <div class="profile-img"><img src="sua-foto.jpg" alt="Vanessa do Carmo"></div>
+
+&#x20;     <h1>Vanessa do Carmo</h1>
+
+&#x20;     <p class="subtitle">Profissional de Limpeza • Verificado <span>✓</span></p>
+
+&#x20;     <div class="badges">
+
+&#x20;       <span>★ 4.9</span>
+
+&#x20;       <span>120+ Limpezas</span>
+
+&#x20;       <span>🛡 100% Confiável</span>
+
+&#x20;     </div>
+
+&#x20;     <button class="btn-pink" onclick="irPara('tela-precos')">Contratar agora</button>
+
+&#x20;   </div>
+
+&#x20;   <div class="home-right">
+
+&#x20;     <div class="menu-item" onclick="irPara('tela-quem-sou')"><span>👤 Quem sou</span><i>›</i></div>
+
+&#x20;     <div class="menu-item" onclick="irPara('tela-servicos')"><span>🧹 Serviços</span><i>›</i></div>
+
+&#x20;     <div class="menu-item" onclick="irPara('tela-trabalhos')"><span>🖼️ Meus Trabalhos</span><i>›</i></div>
+
+&#x20;     <div class="menu-item" onclick="irPara('tela-precos')"><span>💰 Preços</span><i>›</i></div>
+
+&#x20;     <div class="menu-item" onclick="irPara('tela-regras')"><span>📋 Regras Combinadas</span><i>›</i></div>
+
+&#x20;     <div class="rating-box">
+
+&#x20;       <p><b>4.9</b> ★★★★★</p>
+
+&#x20;       <small>Baseado em 87 avaliações</small>
+
+&#x20;       <div class="avatars">● ● ● <b>+120 clientes felizes</b></div>
+
+&#x20;     </div>
+
+&#x20;   </div>
+
+&#x20; </div>
+
+</section>
+=============================================================================================DIA 03 A 04 DO PROJETO=======================================================================
+
+<!-- ===== TELA 2: QUEM SOU ===== -->
+
+<section class="screen" id="tela-quem-sou">
+
+&#x20; <div class="topbar"><button onclick="irPara('tela-inicio')">‹ Voltar</button><h2>Quem sou</h2><span>...</span></div>
+
+&#x20; <div class="card-black two-col">
+
+&#x20;   <div class="col-left center">
+
+&#x20;     <div class="profile-img big"><img src="sua-foto.jpg" alt="Vanessa"></div>
+
+&#x20;     <h2>Vanessa do Carmo</h2>
+
+&#x20;     <p class="teal">Profissional de Limpeza • Verificado ✓</p>
+
+&#x20;     <div class="badges"><span>☆ 4.9</span><span>120+ Limpezas</span><span>🛡 100% Confiável</span></div>
+
+&#x20;     <button class="btn-pink full" onclick="irPara('tela-precos')">Contratar agora</button>
+
+&#x20;   </div>
+
+&#x20;   <div class="col-right">
+
+&#x20;     <h3>Sobre mim</h3>
+
+&#x20;     <p>Profissional de limpeza residencial e comercial com 7 anos de experiência. Dedico-me a deixar cada ambiente limpo, seguro e acolhedor, usando produtos ecológicos e técnicas profissionais. Pontual, detalhista e confiável — sua casa em boas mãos!</p>
+
+&#x20;     <h3>Especialidades</h3>
+
+&#x20;     <div class="spec">🧹 Limpeza residencial</div>
+
+&#x20;     <div class="spec">🏢 Limpeza comercial</div>
+
+&#x20;     <div class="spec">🪣 Limpeza pós-obra</div>
+
+&#x20;     <h3>Por que escolher?</h3>
+
+&#x20;     <div class="tags"><span>◷ Pontualidade</span><span>🍃 Produtos ecológicos</span><span>♡ Cuidado e atenção aos detalhes</span></div>
+
+&#x20;   </div>
+
+&#x20; </div>
+
+</section>
+=================================================================================================DIAS 04 A 05 DO PROJETO===================================================================
+
+<!-- ===== TELA 3: SERVIÇOS ===== -->
+
+<section class="screen" id="tela-servicos">
+
+&#x20; <div class="topbar"><button onclick="irPara('tela-inicio')">‹ Voltar</button><h2>Serviços</h2><span>...</span></div>
+
+&#x20; <div class="card-black two-col">
+
+&#x20;   <div class="col-left center">
+
+&#x20;     <div class="profile-img"><img src="sua-foto.jpg" alt="Vanessa"></div>
+
+&#x20;     <h2>Vanessa do Carmo</h2>
+
+&#x20;     <p class="teal">Profissional de Limpeza • Verificado ✓</p>
+
+&#x20;     <div class="badges"><span>★ 4.9</span><span>120+ Limpezas</span><span>100% Confiável</span></div>
+
+&#x20;   </div>
+
+&#x20;   <div class="col-right">
+
+&#x20;     <h3>Serviços disponíveis</h3>
+
+&#x20;     <div class="service"><b>🧹 Limpeza Residencial Completa</b><span>R$ 180,00</span><p>Limpeza completa de casa ou apartamento.</p><button onclick="selecionarServico('Limpeza Residencial - R$180')">Selecionar</button></div>
+
+&#x20;     <div class="service"><b>🏢 Limpeza Comercial</b><span>R$ 250,00</span><p>Escritórios, consultórios e lojas.</p><button onclick="selecionarServico('Limpeza Comercial - R$250')">Selecionar</button></div>
+
+&#x20;     <div class="service"><b>🪣 Limpeza Pós-Obra</b><span>R$ 350,00</span><p>Remoção de poeira e resíduos após reforma.</p><button onclick="selecionarServico('Limpeza Pós-Obra - R$350')">Selecionar</button></div>
+
+&#x20;     <div class="service"><b>✨ Faxina Expressa</b><span>R$ 120,00</span><p>Limpeza rápida e eficiente.</p><button onclick="selecionarServico('Faxina Expressa - R$120')">Selecionar</button></div>
+
+&#x20;     <p id="servico-escolhido" class="escolhido"></p>
+
+&#x20;   </div>
+
+&#x20; </div>
+
+</section>
+==============================================================================DIA 05 A 06 DO PROJETO ======================================================================================
+
+<!-- ===== TELA 4: TRABALHOS ===== -->
+
+<section class="screen" id="tela-trabalhos">
+
+&#x20; <div class="topbar"><button onclick="irPara('tela-inicio')">‹ Voltar</button><h2>Meus Trabalhos</h2><span>...</span></div>
+
+&#x20; <div class="card-black two-col">
+
+&#x20;   <div class="col-left center">
+
+&#x20;     <div class="profile-img"><img src="sua-foto.jpg" alt="Vanessa"></div>
+
+&#x20;     <h2>Vanessa do Carmo</h2>
+
+&#x20;     <p class="teal">Profissional de Limpeza • Verificado ✓</p>
+
+&#x20;     <div class="badges"><span>★ 4.9</span><span>120+ Limpezas</span><span>100% Confiável</span></div>
+
+&#x20;     <button class="btn-pink full" onclick="irPara('tela-precos')">Contratar agora</button>
+
+&#x20;   </div>
+
+&#x20;   <div class="col-right">
+
+&#x20;     <h3>Portfólio</h3>
+
+&#x20;     <div class="grid-works">
+
+&#x20;       <div class="work"><div class="before-after">ANTES / DEPOIS</div><p>Cozinha - Limpeza Completa</p></div>
+
+&#x20;       <div class="work"><div class="before-after">ANTES / DEPOIS</div><p>Sala - Pós-Obra</p></div>
+
+&#x20;       <div class="work"><div class="before-after">ANTES / DEPOIS</div><p>Banheiro - Higienização</p></div>
+
+&#x20;       <div class="work"><div class="before-after">ANTES / DEPOIS</div><p>Escritório Comercial</p></div>
+
+&#x20;     </div>
+
+&#x20;   </div>
+
+&#x20; </div>
+
+</section>
+
+=========================================================================DIA 06 A 07 DO PROJETO=============================================================================================
+
+<!-- ===== TELA 5: PREÇOS ===== -->
+
+<section class="screen" id="tela-precos">
+
+&#x20; <div class="topbar"><button onclick="irPara('tela-inicio')">‹ Voltar</button><h2>Preços</h2><span>...</span></div>
+
+&#x20; <div class="card-black">
+
+&#x20;   <div class="price-grid">
+
+&#x20;     <div class="price-card"><h3>Mensal</h3><p class="price">R$ 150<small>/mês</small></p><ul><li>✓ 1 limpeza por mês</li><li>✓ Produtos inclusos</li></ul><button onclick="escolherPlano('Mensal')">Escolher Mensal</button></div>
+
+&#x20;     <div class="price-card popular"><span class="pop">MAIS POPULAR</span><h3>Semanal</h3><p class="price">R$ 120<small>/semana</small></p><ul><li>✓ 1 limpeza por semana</li><li>✓ Produtos ecológicos</li><li>✓ Mesma profissional</li></ul><button class="btn-pink" onclick="escolherPlano('Semanal')">Escolher Semanal</button></div>
+
+&#x20;     <div class="price-card"><h3>Quinzenal</h3><p class="price">R$ 140<small>/quinzena</small></p><ul><li>✓ 2 limpezas por mês</li><li>✓ Suporte WhatsApp</li></ul><button onclick="escolherPlano('Quinzenal')">Escolher Quinzenal</button></div>
+
+&#x20;   </div>
+
+&#x20;   <p class="note">💡 Preços para apartamentos até 80m².</p>
+
+&#x20; </div>
+
+</section>
+=========================================================================DIAS 07 A 08 DO PROJETOS ==========================================================================================
+
+<!-- ===== TELA 6: REGRAS DE NEGÓCIO===== -->
+
+<section class="screen" id="tela-regras">
+
+&#x20; <div class="topbar"><button onclick="irPara('tela-inicio')">‹ Voltar</button><h2>Regras Combinadas</h2><span>...</span></div>
+
+&#x20; <div class="card-black">
+
+&#x20;   <div class="rules-grid">
+
+&#x20;     <div class="rule"><b>📅 Agendamento</b><p>Agende com no mínimo 48h de antecedência. Cancelamentos até 24h antes sem taxa.</p></div>
+
+&#x20;     <div class="rule"><b>💰 Pagamento</b><p>Pix, dinheiro ou cartão. Pagamento no dia ou até 1 dia antes via Pix.</p></div>
+
+&#x20;     <div class="rule"><b>🏠 Acesso</b><p>Cliente deve garantir acesso no horário combinado.</p></div>
+
+&#x20;     <div class="rule"><b>🧴 Produtos</b><p>Produtos ecológicos inclusos.</p></div>
+
+&#x20;   </div>
+
+&#x20;   <div class="rules-actions"><button class="btn-pink" onclick="irPara('tela-precos')">Li e Concordo</button><button class="btn-outline" onclick="abrirWhats()">Falar no WhatsApp</button></div>
+
+&#x20; </div>
+
+</section>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
+

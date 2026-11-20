@@ -1,0 +1,124 @@
+/*=================================================CÓDIGO FONTE CSS DOS DIAS 08 A 09 DO PROJETO =====================================================================================*/
+/*CÓDIGO CSS  PARA ESCONDER AS TELAS E MOSTRAE UMA TELA POR VEZ.*/
+
+
+
+.screen{display:none}
+
+.screen.active{display:block}
+
+
+
+\*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+
+body{background:#FBE9E9;color:#111}
+
+.screen{max-width:1100px;margin:0 auto;padding:30px 20px}
+
+.page-title{text-align:center;font-size:32px;margin-bottom:20px}
+
+.card-black{background:#1A1A1E;color:#fff;border-radius:24px;padding:32px}
+
+.two-col{display:flex;gap:40px}
+
+.col-left{flex:1}.col-right{flex:1.2}
+
+.center{text-align:center}.profile-img{width:180px;height:180px;border-radius:50%;overflow:hidden;margin:0 auto 16px;background:#ddd}
+
+.profile-img img{width:100%;height:100%;object-fit:cover}.profile-img.big{width:220px;height:220px}
+
+.teal{color:#5EC8C0;margin:8px 0}
+
+.badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin:14px 0}
+
+.badges span{background:#2A2A2F;padding:8px 12px;border-radius:10px;font-size:13px}
+
+.btn-pink{background:#FADADD;color:#111;border:0;padding:14px 28px;border-radius:14px;font-weight:bold;cursor:pointer;width:100%;margin-top:16px}
+
+.btn-outline{background:transparent;border:1px solid #fff;color:#fff;padding:14px 28px;border-radius:14px;cursor:pointer}
+
+h3{margin:22px 0 10px}
+
+
+/*=================================================CÓDIGO FONTE CSS DOS DIAS 09 A 10 DO PROJETO =====================================================================================*/
+
+/\* HOME \*/
+
+.home-card{background:#1A1A1E;color:#fff;border-radius:24px;display:flex;overflow:hidden}
+
+.home-left{flex:1;padding:32px;text-align:center}
+
+.home-right{flex:1.2;padding:32px}
+
+.menu-item{background:#2A2A2F;padding:16px;border-radius:14px;margin-bottom:10px;display:flex;justify-content:space-between}
+
+.rating-box{background:#2A2A2F;padding:16px;border-radius:14px;margin-top:16px}
+
+/*=================================================CÓDIGO FONTE CSS DOS DIAS 10 A 14 DO PROJETO =====================================================================================*/
+
+/\* SERVIÇOS / OUTROS \*/
+
+.spec{background:#2E4A4A;padding:12px;border-radius:12px;margin-bottom:8px}
+
+.tags{display:flex;gap:8px;flex-wrap:wrap}
+
+.tags span{background:#2A2A2F;padding:8px 10px;border-radius:10px;font-size:13px}
+
+.service{background:#2A2A2F;padding:16px;border-radius:14px;margin-bottom:12px}
+
+.service span{float:right;color:#FADADD;font-weight:bold}
+
+.service button{background:#FADADD;border:0;padding:8px 16px;border-radius:10px;margin-top:10px;cursor:pointer}
+
+.grid-works{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+
+.before-after{background:#444;height:120px;border-radius:12px;display:flex;align-items:center;justify-content:center}
+
+.price-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
+
+.price-card{background:#2A2A2F;padding:22px;border-radius:18px;text-align:center;position:relative}
+
+.price-card.popular{border:2px solid #FADADD}
+
+.pop{background:#FADADD;color:#111;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:bold;position:absolute;top:-12px;left:50%;transform:translateX(-50%)}
+
+.price{font-size:28px;margin:12px 0}
+
+.price-card ul{list-style:none;text-align:left;margin:14px 0}
+
+.price-card button{background:#fff;border:0;padding:10px;width:100%;border-radius:10px;cursor:pointer}
+
+.note{text-align:center;margin-top:18px;opacity:.8}
+
+.rules-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+
+.rule{background:#2A2A2F;padding:18px;border-radius:14px}
+
+.rules-actions{display:flex;gap:12px;justify-content:center;margin-top:20px}
+
+.rules-actions button{width:auto}
+
+/*=================================================CÓDIGO FONTE CSS DOS DIAS 14 A 15 DO PROJETO =====================================================================================*/
+
+
+
+/\* ===== RESPONSIVO = VERSÃO CELULAR ===== \*/
+
+@media(max-width:768px){
+
+&#x20; .two-col,.home-card{flex-direction:column}
+
+&#x20; .price-grid,.rules-grid,.grid-works{grid-template-columns:1fr}
+
+&#x20; .card-black{padding:20px}
+
+&#x20; .home-left,.home-right{padding:20px}
+
+&#x20; .profile-img{width:140px;height:140px}
+
+&#x20; .rules-actions{flex-direction:column}
+
+&#x20; .rules-actions button{width:100%}
+
+}
+
