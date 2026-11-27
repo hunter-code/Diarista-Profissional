@@ -1,6 +1,6 @@
 # [DIARISTA PROFISSIONAL]
 
-[Este projeto tem como objetivo servir como aplicação dentro de um site com o propósito de apresentar as habilidades, experiências, disponibilidades bem como as características e perfil profissional de uma pessoa. Tendo partes de aplicação para planos, pedido de serviços, combinados , demonstração de experiência e amostra do antes e do depois.  ]
+Este projeto tem como objetivo servir como aplicação dentro de um site com o propósito de apresentar as habilidades, experiências, disponibilidades bem como as características e perfil profissional de uma pessoa. Tendo partes de aplicação para planos, pedido de serviços, combinados , demonstração de experiência e amostra do antes e do depois.  
 <img src="assets/design/Desktop/04-servicos-desktop.jpeg" alt="Avatar da diarista" width="800px">
 
 ## 🚀 Começando
